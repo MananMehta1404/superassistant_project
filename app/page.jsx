@@ -1,4 +1,4 @@
-import { Header, MCQ, Checkbox, Shortanswer, Paragraph, Dropdown, Fileupload } from "@components"
+import { Header, MCQ, Checkbox, Shortanswer, Paragraph, Dropdown, Fileupload, Linearscale, Multichoicegrid, Tickboxgrid } from "@components"
 
 const Home = () => {
   return (
@@ -10,6 +10,9 @@ const Home = () => {
         <Paragraph />
         <Dropdown />
         <Fileupload />
+        <Linearscale />
+        <Multichoicegrid />
+        <Tickboxgrid />
     </section>
   )
 }
