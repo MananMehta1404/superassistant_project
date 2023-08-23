@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Paragraph = () => {
   return (
     <div className='w-[55%] m-2 p-7 rounded-xl bg-white'>
